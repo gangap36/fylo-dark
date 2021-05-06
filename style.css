@@ -76,7 +76,7 @@ section .stay-prod {
   justify-content: space-between;
   align-items: center;
 
-  margin: 20px
+  margin: 50px
 }
 
 section .stay-prod .text {
@@ -85,22 +85,37 @@ section .stay-prod .text {
 
   /* SECTION TESTEMONIALS */
 section .testem {
-  width: 100%;
-  height: 500px;
-  display: flex;
   background-color: hsl(218, 28%, 13%);
-  align-items: center;
-  justify-content: space-evenly;
   position: relative;
 
+  margin-bottom: 150px
+
+}
+
+.t-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.depo {
+  background-color: hsl(219, 30%, 18%); 
+  width: 100%;
+  height: 100%;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+.depo:hover {
+  transform: scale(1.2,1.2);
 }
 
 section .quotes {
   width: 50px;
   height: 50px;
   position: absolute;
-  left: 5%;
-  bottom: 70%;
+  left: 0;
+  top: 0;
 }
 
 section .testem .profile img {
@@ -108,15 +123,15 @@ section .testem .profile img {
   border-radius: 50%;
 }
 
-.depo {
-  background-color: hsl(219, 30%, 18%); 
-  width: 15%;
-  height: 50%;
-}
 
 .profile {
   display: flex;
   flex-direction: row;
+  align-items: center;
+}
+
+.prof {
+  padding-left: 10px;
 }
 
   /* FORMS */
@@ -128,7 +143,7 @@ forms {
 
 .forms {
   position: absolute;
-  bottom: -90px;
+  bottom: -150px;
   left: 20%;
   width: 60%;
 
@@ -167,7 +182,7 @@ footer {
 }
 
 footer .container {
-  margin-top: 150px;
+  margin-top: 200px;
 }
  footer .img {
    width: 100px;
